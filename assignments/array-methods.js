@@ -85,6 +85,8 @@ largeShirts = runners.filter(function (runner) {
 })
 console.log(largeShirts);
 
+// runners.filter(function(x){})
+
 // ==== Challenge 4: Use .reduce() ====
 // The donations need to be tallied up and reported for tax purposes. Add up all the donations into a ticketPriceTotal array and log the result
 
@@ -103,6 +105,9 @@ console.log(largeShirts);
 
 // Problem 1
 
+
+
+// Problem 2
 let companyName = [];
 companyName= runners.filter(function (runner) {
     if (runner.company_name === "Gabtype") {
@@ -114,8 +119,5 @@ companyName= runners.filter(function (runner) {
 
 })
 console.log(companyName);
-
-
-// Problem 2
 
 // Problem 3
